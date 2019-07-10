@@ -13,7 +13,9 @@ def parse_args():
     return parser.parse_args()
 
 def main():
-  parse_args()
+
+  # Parse arguments
+  args = parse_args()
 
 if __name__ == "__main__":
   main()
