@@ -63,7 +63,7 @@ def main():
   for old_str in os.listdir(directory):
 
     # Check for matching file
-    if(ro.match(string = old_str)):
+    if(ro.fullmatch(string = old_str)):
 
       # Create rename string by using patterns
       new_str = ro.sub(repl = ren_pat, string = old_str, count=1)
