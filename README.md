@@ -31,3 +31,8 @@ Example 2: Rename keeping extension
 pyren "old(.*)" "new\\1"
 ```
 The `\` is needed to escape the `\` sign.
+
+# Testing
+```
+pytest
+```
