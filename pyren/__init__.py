@@ -1,1 +1,1 @@
-import pyren
+from pyren import pyren

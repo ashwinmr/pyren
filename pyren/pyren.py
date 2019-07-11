@@ -35,7 +35,6 @@ def prompt():
 def disp_res(ren_list):
   """ Display results of renaming
   """
-  print("\nThe following files will be renamed:")
   for old,new in ren_list:
     print("{:30}{:30}".format(os.path.basename(old),os.path.basename(new)))
 
@@ -73,6 +72,7 @@ def main():
       ren_list.append((os.path.join(directory,old_str), os.path.join(directory,new_str)))
 
   # Display results
+  print("\nThe following files will be renamed:")
   disp_res(ren_list)
 
   # Ask for confirmation before renaming

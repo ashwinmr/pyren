@@ -3,3 +3,4 @@ temp/
 dist/
 *.egg-info
 *.pyc
+.vscode
